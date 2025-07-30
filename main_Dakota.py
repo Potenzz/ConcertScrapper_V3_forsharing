@@ -165,6 +165,8 @@ class Scraper:
 
         time.sleep(3)
 
+        input("Enter here to continue if captcha is solved: ")
+
         today = datetime.today()
         current_year = today.year
         current_month = today.month
