@@ -163,9 +163,7 @@ class Scraper:
         self.driver.get(url)
         self.driver.maximize_window()
 
-        time.sleep(3)
-
-        input("Enter here to continue if captcha is solved: ")
+        time.sleep(4)
 
         today = datetime.today()
         current_year = today.year
